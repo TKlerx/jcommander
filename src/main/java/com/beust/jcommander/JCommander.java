@@ -369,6 +369,8 @@ public class JCommander {
 				}else{
 					splitFileArgs.add(arg2);
 				}
+			} else {
+				splitFileArgs.add(arg2);
 			}
 		}
 		vResult1.addAll(splitFileArgs);
