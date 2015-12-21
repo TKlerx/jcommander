@@ -362,7 +362,7 @@ public class JCommander {
 			if (isOption(v1, arg2)) {
 				String sep = getSeparatorFor(v1, arg2);
 				if (" ".equals(sep)) {
-					String[] sp = arg2.split("[" + sep + "]+",2);
+					String[] sp = arg2.split("[" + sep + "]+");
 					for (String ssp : sp) {
 						splitFileArgs.add(ssp);
 					}
